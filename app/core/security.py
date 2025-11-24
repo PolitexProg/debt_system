@@ -3,7 +3,7 @@
 from typing import AsyncGenerator
 from fastapi import Depends
 from sqlalchemy.ext.asyncio import AsyncSession
-from uuid import UUID # Импортируем UUID
+from uuid import UUID 
 from fastapi_users import BaseUserManager, UUIDIDMixin, FastAPIUsers
 from fastapi_users.db import SQLAlchemyUserDatabase
 from sqlalchemy.ext.asyncio import AsyncSession
